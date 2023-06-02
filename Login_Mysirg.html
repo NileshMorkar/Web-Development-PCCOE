@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>LoginPage</title>
+</head>
+<style>
+    .modal {
+        position: fixed;
+        z-index: 1;
+        left: 37%;
+        right: 37%;
+        top: 20%;
+        border: 1px solid black;
+        padding: 10px;
+    }
+    
+    input[type=text],
+    input[type=password] {
+        width: 90%;
+        padding: 10px 12px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    
+    button {
+        border: none;
+        color: white;
+        background-color: green;
+        width: 80%;
+        padding: 10px 14px;
+        margin: 10px 40px;
+    }
+    
+    .cancelbtn {
+        width: auto;
+        background-color: red;
+    }
+    
+    span.psw {
+        float: right;
+        padding: 15px;
+    }
+    
+    .container2 {
+        padding: 5px;
+        background-color: lightgray;
+    }
+    
+    button:hover {
+        background-color: lightblue;
+        color: black;
+    }
+</style>
+
+<body>
+    <div class="modal">
+        <form action="#" method="post"></form>
+        <div class="container1">
+            <b>User Name</b><input type="text" placeholder="Enter Username">
+            <b>Password</b><input type="password" placeholder="Enter Password">
+            <button type="submit">Login</button>
+            <div>
+                <label for="remember">Remember me</label>
+                <input type="checkbox" id="remember" checked="checked" name="remember">
+            </div>
+        </div>
+        <div class="container2">
+            <button class="cancelbtn">Cancel</button>
+            <span class="psw">Forgot<a href="#">password?</a></span>
+        </div>
+    </div>
+</body>
+
+</html>
